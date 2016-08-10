@@ -9,7 +9,7 @@ rescue LoadError
   exit 0
 end
 
-require 'leap-motion-ws'
+require 'leap_sample_gem'
 
 class Track
   def initialize(itunes)

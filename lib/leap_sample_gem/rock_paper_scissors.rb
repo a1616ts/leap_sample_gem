@@ -1,6 +1,6 @@
 $:.unshift "../lib"
 
-require 'leap-motion-ws'
+require 'leap_sample_gem'
 
 class LeapTest < LEAP::Motion::WS
   def initialize
