@@ -1,6 +1,6 @@
 $:.unshift "../lib"
 
-require 'leap-motion-ws'
+require 'leap_sample_gem'
 require 'selenium-webdriver'
 
 class LeapTest < LEAP::Motion::WS
