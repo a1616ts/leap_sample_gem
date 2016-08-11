@@ -1,5 +1,7 @@
 require "leap_sample_gem/version"
 
 module LeapSampleGem
-  # Your code goes here...
+  def self.main
+    puts 'I have leap motion sample.'
+  end
 end
