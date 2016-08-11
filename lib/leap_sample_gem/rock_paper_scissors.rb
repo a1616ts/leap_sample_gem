@@ -54,10 +54,6 @@ Signal.trap("TERM") do
   puts "Terminating..."
   leap.stop
 end
-Signal.trap("KILL") do
-  puts "Terminating..."
-  leap.stop
-end
 Signal.trap("INT") do
   puts "Terminating..."
   leap.stop
