@@ -5,7 +5,7 @@ describe LeapSampleGem do
     expect(LeapSampleGem::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'has sample file' do
+    expect(File.exist?('lib/leap_sample_gem/ubiquitous_demo.rb')).to be true
   end
 end
