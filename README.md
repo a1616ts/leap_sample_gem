@@ -26,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-This gem reads your hand activity using Leap Motion and launches Firefox depending on the acticity direction. 
+This gem reads your hand activity using Leap Motion and launches Firefox depending on the activity direction. 
 
 ## Development
 
