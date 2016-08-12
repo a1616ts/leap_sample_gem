@@ -20,9 +20,13 @@ Or install it yourself as:
 
     $ gem install leap_sample_gem
 
+## Prerequisite Gems
+- leap-motion-ws
+- selenium-webdriver
+
 ## Usage
 
-TODO: Write usage instructions here
+This gem reads your hand activity using Leap Motion and launches Firefox depending on the acticity direction. 
 
 ## Development
 
